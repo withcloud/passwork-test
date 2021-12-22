@@ -6,7 +6,7 @@ const Index = () => {
   for (let i = 65; i <= 90; i++) {
     abc.push(String.fromCharCode(i))
   }
-  const [v1, setV1] = useState('')
+  const [v1, setV1] = useState('hello world')
   const [v2, setV2] = useState('')
   const [v3, setV3] = useState('')
   const [v4, setV4] = useState('')
