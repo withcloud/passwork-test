@@ -7,7 +7,7 @@ const Index = () => {
     abc.push(String.fromCharCode(i))
   }
   const [v1, setV1] = useState('hello world')
-  const [v2, setV2] = useState('')
+  const [v2, setV2] = useState('hello world')
   const [v3, setV3] = useState('')
   const [v4, setV4] = useState('')
   const [compileArr, setCompileArr] = useState(abc)
